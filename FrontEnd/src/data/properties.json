@@ -1,0 +1,88 @@
+[
+  {
+    "Id": "1",
+    "SellRent":1,
+    "Name": "Birla House",
+    "Price": "12000",
+    "Type": "House",
+    "Image":"House1"
+  },
+  {
+    "Id": "2",
+    "SellRent":1,
+    "Name": "Eros Villa",
+    "Price": "11000",
+    "Image":"house2",
+    "Type": "Villa"
+  },
+  {
+    "Id": "3",
+    "SellRent":2,
+    "Name": "Birla House",
+    "Price": "13000",
+    "Image":"house3",
+    "Type": "House"
+  },
+  {
+    "Id": "4",
+    "SellRent":1,
+    "Name": "Birla House",
+    "Price": "15000",
+    "Image":"house4",
+    "Type": "House"
+  },
+  {
+    "Id": "5",
+    "SellRent":2,
+    "Name": "Birla House",
+    "Price": "10000",
+    "Image":"house5",
+    "Type": "House"
+  },
+  {
+    "Id": "6",
+    "SellRent":1,
+    "Name": "Ghost House",
+    "Price": "12500",
+    "Image":"house6",
+    "Type": "Rooms"
+  },
+  {
+    "Id": "7",
+    "SellRent":1,
+    "Name": "Oyo",
+    "Price": "14500",
+    "Image":"house7",
+    "Type": "Hut"
+  },
+  {
+    "Id": "8",
+    "SellRent":2,
+    "Name": "Taj Mahal",
+    "Price": "6000",
+    "Image":"house10",
+    "Type": "Palace"
+  },
+  {
+    "Id": "9",
+    "SellRent":1,
+    "Name": " Mahal",
+    "Price": "6000",
+    "Image":"house9",
+    "Type": "Palace"
+  },
+  {
+    "Id": "10",
+    "SellRent":1,
+    "Name": "Mark hill",
+    "Price": "5000",
+    "Type": "Palace"
+  },
+  {
+    "Id": "11",
+    "SellRent":1,
+    "Name": "Plazza",
+    "Price": "6000",
+    "Type": "Palace"
+  }
+]

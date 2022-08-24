@@ -1,0 +1,40 @@
+<div clqass="card">
+  <div class="card-tittle">
+    Add New Property
+  </div>
+  <div class="card-body ">
+    <form  #Form="ngForm" [formGroup]="addpropertyform">
+      <div class="from-group col-12">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" #propName="ngModel" ngModel name="Name" required minlength="5">
+        <span *ngIf="propName.invalid && propName.touched" class="error-block">
+          <span *ngIf="propName.errors && propName.errors['required']">Please provide a name.</span>
+          <span *ngIf="propName.errors && propName.errors['minlength']">minimum length of Name should be 5</span>
+        </span>
+      </div>
+
+      <div class="from-group col-12">
+        <label for="Type">Type</label>
+        <input type="text" class="form-control" ngModel name="Type" formControlName="Type">
+        <span *ngIf="!type.valid && type.touched" class="error-block"> Provide a Type</span>
+
+      </div>
+
+      <div class="from-group col-12">
+        <label for="Price">Price</label>
+        <input type="text" class="form-control"ngModel name="Price" formControlName="Price">
+        <span *ngIf="price.invalid && price.touched" class="error-block">
+          <span *ngIf="price.errors && price.errors['required']">Please provide a price.</span>
+          <span *ngIf="price.errors && price.errors['min']">minimum price  should be 1000</span>
+        </span>
+      </div><br>
+      <div class="from-group col-12">
+        <button type="submit" [disabled]="!Form.valid" class="btn btn-primary from-label" style="margin-right: 4px;">Save</button>
+        <button type="reset" class="btn btn-primary">Cancel</button>
+      </div>
+
+
+  </form>
+
+</div>
+</div>
